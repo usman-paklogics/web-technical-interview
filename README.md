@@ -9,9 +9,15 @@ yarn dev
 
 ```
 
+## Preferred Technology
+
+- Tailwind css
+- Atomic design
+- NextJS
+
 ## Exercise #1
 
-We will be building a set of components to create a card grid using Tailwind. The example we are looking to build is the following:
+We will be building a set of components to create the following example:
 
 ![Homes list](https://i.ibb.co/9TgxWzM/Screen-Shot-2022-10-21-at-12-37-43-PM.png)
 
