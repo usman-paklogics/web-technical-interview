@@ -12,12 +12,12 @@ yarn dev
 ## Exercise #1
 
 We will be building a set of components to create a card grid using Tailwind. The example we are looking to build is the following:
-<img src="https://i.ibb.co/9TgxWzM/Screen-Shot-2022-10-21-at-12-37-43-PM.png" alt="Screen-Shot-2022-10-21-at-12-37-43-PM" border="0">
+![Homes list](https://i.ibb.co/9TgxWzM/Screen-Shot-2022-10-21-at-12-37-43-PM.png)
 
 ## Exercise #2
 
 The next phase is building a simple sign in page. The example we are building is the following:
-<img src="https://i.ibb.co/RSwB46H/Screen-Shot-2022-10-21-at-12-46-18-PM.png" alt="Screen-Shot-2022-10-21-at-12-46-18-PM" border="0">
+![Login](https://i.ibb.co/RSwB46H/Screen-Shot-2022-10-21-at-12-46-18-PM.png)
 
 - Use the users.json to authenticate the user
 - Save to localStorage with the user that is authenticated
