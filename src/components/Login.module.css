@@ -1,0 +1,48 @@
+.bg_img {
+  background-image: url("/images/home.jpeg");
+  background-color: #cccccc;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+.loginWrapper {
+  padding: 1rem 2rem;
+  height: 100vh;
+  width: 100%;
+}
+.logoWrapper {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.logoWrapper img {
+  height: 32px;
+  width: 32px;
+}
+
+.logoWrapper .logoContent {
+  font-size: 30px;
+}
+
+.formWrapper {
+  min-width: 450px;
+}
+
+@media (max-width: 1150px) and (min-width: 800px) {
+  .formWrapper {
+    min-width: 400px;
+  }
+}
+
+@media (max-width: 799px) {
+  .formWrapper {
+    min-width: 370px;
+  }
+}
