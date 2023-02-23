@@ -12,9 +12,9 @@ function Card(props: cardProps) {
                 src="/images/home.jpeg"
                 alt="Sunset in the mountains"
             />
-            <div className="px-3 sm:px-2 md:px-3 lg:px-6 xl:px-6 py-2 md:py-2 lg:py-3 xl:py-4 rounded-xl bg-white relative -mt-10">
+            <div className="px-3 sm:px-2 md:px-3 lg:px-6 xl:px-6 py-2 md:py-2 lg:py-3 xl:py-4 rounded-xl bg-white relative -mt-4">
                 <div className='flex justify-between'>
-                    <p className={`font-bold text-sm md:text-base xl:text-lg text text-xl mb-1 lg:mb-2 ${styles.card_description}`}>{title}</p>
+                    <p className={`font-bold text-sm md:text-base xl:text-lg text text-xl ${styles.card_description}`}>{title}</p>
                     <button className='bg-green-500 p-1 px-2 h-7 rounded'><img src='/images/right-arrow.png' className={styles.button_img} alt='' /></button>
                 </div>
                 <p className={`text-gray-700 text-xs md:text-sm lg:text-base ${styles.card_description}`}>
